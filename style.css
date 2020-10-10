@@ -1,66 +1,67 @@
-header {
-background-color: lightpurple;
-padding: 0%;
-margin: auto;
-
-}
- heading {
-  background-color: darkgray;
-  opacity: 50%;
-  width: 100%;
+*{
+    font-family: sans-serif;
+    margin:0;
+    padding:0;
+    
+  }
+  #image{
+   background-image: url('https://images.unsplash.com/photo-1543857778-c4a1a3e0b2eb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=953&q=80') ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed; 
+  }
   
-}
-body {
-background-color: lightgray;
-font-family: sans-serif;
-margin: 0;
-}
-footer{
-  background-color: darkgray;
-  padding: 20px;
-  margin: auto;
-  border: solid 1px black;
+  #image1{
+   background-image: url('https://images.unsplash.com/photo-1561214115-f2f134cc4912?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=953&q=80') ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed; 
+  }
+  
+   #image2{
+   background-image:url('https://images.unsplash.com/photo-1470137237906-d8a4f71e1966?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  #image3{
+   background-image: url('https://images.unsplash.com/photo-1570672411102-20450def2057?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60') ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed; 
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+  }
+  
+  div {
+    height:100vh;
+  }
+  h1{
+    text-align:center;
+  }
+  /* im going to try to do some magic to the cards :> next */
+  img {
+      border-radius: 100%;
+  }
 
+  #text {
+      color: goldenrod;
+      
+  
 
-}
-ul {
-  /* width: 50px; */ 
-  margin: 0px;
-  padding: 20px;
-  display: inline-block;
-  background-color: darkgray;
-  width: 100%;
-
-} 
-img{
-  max-width: 400px;
-  margin: auto;
-  border: solid 2px violet;
-  border-radius: 50%;
-  background-position: center;
-  display: block;
-}
-li {
-  display: inline;
-  padding: 20px;
-  margin: 100px;
-  background: lightskyblue;
-  cursor: pointer;
-}
-li:hover{
-  background-color: white;
-}
-
-h1 , p {
-  text-align: center;
-}
-form {
-  display: inline-block;
-  padding: 20px;
-}
-.list {
-  list-style-type: circle;
-}
-#foot ul{
-padding:50%;
-}
+    
+  /* @media (min-width:500px) and (max-width:1200px){
+    body {
+    
+    } */
+  }
