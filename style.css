@@ -2,32 +2,55 @@
     font-family: sans-serif;
     margin:0;
     padding:0;
-    
+    box-sizing: border-box;
   }
-  a{
-    color:white;
+
+
+body{
+  text-align: center;
+}
+
+
+  #div2 {
+    color:black;
     text-decoration: none;
+  }
+  a {
+    color:white;
+    text-decoration:none;
   }
   nav{
     display: flex;
     position: relative;
-    background-color:#333;
-    flex-basis: 100vw;
+    background-color:rgb(33, 135, 160);
+    flex-basis: 100%;
     align-items: center;
-    display: flex;
     flex-direction: row;
+    height: 100px;
+    justify-content: space-between;
 }
- Video {
+/* Video {
   position: relative;
   right: 0;
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
-} 
+}  */
+
+
+.nav-list img{
+  margin-left: 1.5rem;
+  height: 75px;
+  width: auto;
+  border-radius: 90%;
+}
+
 ul {
     display: flex;
-    width: 100vw;
+    width: 100%;
+    justify-content: flex-end;
 }
+
 
 li {
     display: flex;
@@ -41,8 +64,43 @@ a:hover{
   color:slategrey;
   cursor: pointer;
 }
+
+
+
+.content img{
+  border-radius: 50%;
+  
+}
+.content {
+  background-color:rgb(233, 230, 50);
+  color: white;
+}
+
+
+.content h1{
+  font-size: 75px;
+}
+
+.content1 h1{
+  font-size: 75px;
+}
+.content2 h1 {
+  font-size: 75px;
+}
+.content3 h1 {
+  font-size: 75px;
+}
+.content4 h1 {
+  font-size: 75px;
+}
+.content5 h1 {
+  font-size: 75px;
+}
+
+
+
   #myVideo{
-    width: 1280px;
+    width: 800px;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -89,25 +147,22 @@ a:hover{
     background-attachment: fixed; 
   }
   
-  .content {
+  .content , .content1 , .content2 , .content3 , .content4 , .content5 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 1.5rem;
   }
-  
+
   div {
     height:100vh;
-    width: 100vw;
+    width: 100%;
   }
   h1{
     text-align:center;
   }
   /* im going to try to do some magic to the cards :> next */
-  #logo {
-      border-radius: 100%;
-  }
+
 
   #text {
       color: goldenrod;
