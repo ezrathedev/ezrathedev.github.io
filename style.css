@@ -130,6 +130,9 @@ a:hover{
     background-position: center center;
     background-size: cover;
     background-attachment: fixed; 
+    display: flex;
+    justify-content: space-between;
+
   }
   
   #image2{
