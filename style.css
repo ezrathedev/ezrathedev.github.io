@@ -11,24 +11,8 @@ body{
 }
 
 
-  #div2 {
-    color:black;
-    text-decoration: none;
-  }
-  a {
-    color:white;
-    text-decoration:none;
-  }
-  nav{
-    display: flex;
-    position: relative;
-    background-color:rgb(33, 135, 160);
-    flex-basis: 100%;
-    align-items: center;
-    flex-direction: row;
-    height: 100px;
-    justify-content: space-between;
-}
+
+
 /* Video {
   position: relative;
   right: 0;
@@ -107,15 +91,7 @@ a:hover{
     background-attachment: fixed; 
   }
 
-  /* #image0{
-    
-    background-image: url('');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed; 
-  } */
-  #image{
+  div#image{
     
     background-image: url('https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80');
     background-repeat: no-repeat;
@@ -124,7 +100,7 @@ a:hover{
     background-attachment: fixed; 
   }
   
-  #image1{
+  div#image1{
     background-image: url('https://images.unsplash.com/photo-1575089976121-8ed7b2a54265?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80') ;
     background-repeat: no-repeat;
     background-position: center center;
@@ -135,14 +111,15 @@ a:hover{
 
   }
   
-  #image2{
+  div#image2{
     background-image:url('https://images.unsplash.com/photo-1484662020986-75935d2ebc66?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80');
     background-position: center center;
+    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
   }
   
-  #image3{
+  div#image3{
     background-image: url('https://images.unsplash.com/photo-1512756290469-ec264b7fbf87?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1249&q=80') ;
     background-repeat: no-repeat;
     background-position: center center;
@@ -157,7 +134,12 @@ a:hover{
     justify-content: center;
   }
 
-  div {
+  div#standard{
+    width: 100%;
+    height: 100vh;
+  }
+
+  div#image {
     height:100vh;
     width: 100%;
   }
@@ -182,6 +164,16 @@ a:hover{
     padding: 10px;
   }
 
+
+
+#div4{
+  font-size: 30px;
+}
+#color{
+  color:black;
+  font-style: italic;
+  
+}
     
   /* @media (min-width:500px) and (max-width:1200px){
     body {
